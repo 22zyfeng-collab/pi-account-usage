@@ -1,0 +1,22 @@
+{
+  "name": "pi-account-usage",
+  "version": "0.1.0",
+  "description": "Pi usage extension that tracks Pi-account (openai-codex) token and cost usage across sessions, with a compact status line, an expandable details button in Pi Web, and a /usage command.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["pi-package"],
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/account-usage.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
